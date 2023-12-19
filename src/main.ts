@@ -17,7 +17,7 @@ async function bootstrap() {
 
   app.enableCors({
     credentials: true,
-    origin: ['http://localhost:3001', 'https://shop-rizvp-client-production.up.railway.app'],
+    origin: ['https://shop-rizvp-client-production.up.railway.app', 'http://localhost:3001'],
   });
 
   const config = new DocumentBuilder()
